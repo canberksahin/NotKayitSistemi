@@ -19,7 +19,7 @@ namespace NotKayitSistemi
             FrmOgrenciDetay frm = new FrmOgrenciDetay();
 
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-427L4HT;Initial Catalog=DbNotKayıt;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=.;Initial Catalog=DbNotKayıt;Integrated Security=True");
         private void FrmOgretmenDetay_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'dbNotKayıtDataSet.TBLDERS' table. You can move, or remove it, as needed.
@@ -105,22 +105,13 @@ namespace NotKayitSistemi
             for (int i = 0; i < toplam; i++)
             {
                 if (dataGridView1.Rows[i].Cells[8].Value.ToString()=="False")
-                {
                     kalanSayısı++;
-                    
-                }
                 else
-                {
                     gecenSayisi++;
-                }
             }
             lblGecenSayisi.Text = gecenSayisi.ToString();
             lblKalanSayisi.Text = kalanSayısı.ToString();
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

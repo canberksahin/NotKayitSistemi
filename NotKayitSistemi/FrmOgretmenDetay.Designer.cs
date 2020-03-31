@@ -252,7 +252,6 @@
             this.lblOgrenciSayisi.Size = new System.Drawing.Size(28, 18);
             this.lblOgrenciSayisi.TabIndex = 12;
             this.lblOgrenciSayisi.Text = "00";
-            this.lblOgrenciSayisi.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 

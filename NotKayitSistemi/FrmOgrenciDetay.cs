@@ -20,7 +20,7 @@ namespace NotKayitSistemi
 
         public string numara;
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-427L4HT;Initial Catalog=DbNotKayıt;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=.;Initial Catalog=DbNotKayıt;Integrated Security=True");
         private void FrmOgrenciDetay_Load(object sender, EventArgs e)
         {
             lblNumara.Text = numara;
