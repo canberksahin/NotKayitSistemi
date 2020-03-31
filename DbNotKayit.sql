@@ -3,10 +3,6 @@ GO
 /****** Object:  Database [DbSecimProje]    Script Date: 31.03.2020 18:13:35 ******/
 CREATE DATABASE [DbSecimProje]
  CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'DbSecimProje', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\DbSecimProje.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'DbSecimProje_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\DbSecimProje_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
 GO
 ALTER DATABASE [DbSecimProje] SET COMPATIBILITY_LEVEL = 140
 GO
